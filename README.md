@@ -1,4 +1,4 @@
 Racing
 ======
 
-Simple OpenGL checkpoint based racing game
+Simple OpenGL checkpoint based racing game. 
