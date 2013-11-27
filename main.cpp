@@ -22,7 +22,7 @@ long sec = 0;
 long usec = 0;
 
 double camerahRadius = 20;
-double Ex = 200;
+double Ex = 120;
 double Ey = 1;
 double Ez = 90;
 double lookx = Ex-20;
@@ -58,13 +58,13 @@ void applyPhysics()
 	}
 	else if(carSpeed>0)
 	{
-		carSpeed -= (10*timestep);
+		carSpeed -= (25*timestep);
 		if(carSpeed<0)
 			carSpeed = 0;
 	}
 	if(decelerate)
 	{
-		carSpeed -= (25*timestep);
+		carSpeed -= (35*timestep);
 		if(carSpeed<-13)
 			carSpeed = -13;
 	}
